@@ -1,0 +1,22 @@
+{
+  "name": "caba",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "tailwind:css": "tailwindcss build style.src.css -o public/style.css"
+  },
+  "dependencies": {
+    "next": "9.3.5",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "tailwindcss": "^1.3.5"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.2",
+    "@types/react": "^16.9.34",
+    "typescript": "^3.8.3"
+  }
+}
